@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base ."
+    "start": "webpack-dev-server --history-api-fallback --hot --inline --content-base ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
